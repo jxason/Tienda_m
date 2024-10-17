@@ -4,15 +4,16 @@ Mi primera pagina dinamica
 -->
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:th="http://www.w3.thymeleaf.org">
-    <head>
-        <title>TechShop</title>
-        <meta charset="UTF-8"/>    
+    <head th:replace="~{layout/Plantilla :: head}">
+        <title>TechShopcito</title>
+        <meta charset="UTF-8"/>  
+        
     </head>
     <body>
-        <header th:replace="~{layout/plantilla :: header}">   
-            Hola mundo...
+        <header th:replace="~{layout/Plantilla :: header}">   
+
         </header>   
-        <footer>
+        <footer th:replace="~{layout/Plantilla :: footer}">
             
         </footer>
     </body>
