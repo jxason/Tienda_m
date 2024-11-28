@@ -27,7 +27,7 @@
 		<url/>
 	</scm>
 	<properties>
-		<java.version>23</java.version>
+		<java.version>22</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -84,8 +84,12 @@
 			<groupId>org.webjars</groupId>
 			<artifactId>webjars-locator</artifactId>
                         <version>0.52</version>
-		</dependency>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
-                                             
+		</dependency>
+	 <dependency>
+	  <groupId>com.mysql</groupId>
+	  <artifactId>mysql-connector-j</artifactId>
+	  <scope>runtime</scope>
+	 </dependency>
 	</dependencies>
 	<build>
 		<plugins>
