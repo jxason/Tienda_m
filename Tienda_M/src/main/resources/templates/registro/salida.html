@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- Mi primera página dinámica -->
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:th="http://www.thymeleaf.org">
     <head th:replace="~{layout/plantilla :: head}">
@@ -7,10 +6,10 @@
         <meta charset="UTF-8"/> 
     </head>
     <body>
-        <header th:replace="~{layout/plantilla :: header}"/>
+        <header th:replace="~{layout/plantilla :: header}"></header>
        
-        <section th:replace="~{pruebas/fragmentos :: tarjetas}"/>
+        <section th:replace="~{registro/fragmentos :: salida}"/>
         
-        <footer th:replace="~{layout/plantilla :: footer}"/>
+        <footer th:replace="~{layout/plantilla :: footer}"></footer>
     </body>
 </html>

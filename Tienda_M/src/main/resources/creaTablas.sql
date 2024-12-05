@@ -85,7 +85,7 @@ INSERT INTO usuario (id_usuario, username,password,nombre, apellidos, correo, te
 
 
 
-/*Se insertan 3 categorias de productos como ejemplo */
+/*Se insertan 4 categorias de productos como ejemplo */
 INSERT INTO categoria (id_categoria,descripcion,ruta_imagen,activo) VALUES 
 ('1','Monitores', 'https://d2ulnfq8we0v3.cloudfront.net/cdn/695858/media/catalog/category/MONITORES.jpg',   true), 
 ('2','Teclados',  'https://cnnespanol.cnn.com/wp-content/uploads/2022/04/teclado-mecanico.jpg',   true),
